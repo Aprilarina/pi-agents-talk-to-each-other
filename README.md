@@ -33,7 +33,7 @@ The first version is intentionally simple: it uses a local file-based room bus u
 From GitHub:
 
 ```bash
-pi install git:github.com/Timur00Kh/pi-agents-talk-to-each-other
+pi install git:github.com/Aprilarina/pi-agents-talk-to-each-other
 ```
 
 For local development from this checkout:
@@ -250,7 +250,7 @@ Message files are deleted after delivery. `agents/*.json`, `control/*.json`, and
 If you run your agents in [cmux](https://github.com/manaflow-ai/cmux) (native macOS terminal for parallel AI agents), you can install an optional skill that lets the controlling agent reload a worker agent or create a new session for it via terminal automation:
 
 ```bash
-npx skills add Timur00Kh/pi-agents-talk-to-each-other -g -y
+npx skills add Aprilarina/pi-agents-talk-to-each-other -g -y
 ```
 
 This installs the `cmux-room-reload` skill, which provides a workflow for:
